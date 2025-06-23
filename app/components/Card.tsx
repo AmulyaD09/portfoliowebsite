@@ -8,7 +8,6 @@ interface CardProps {
   description: string;
   image: string;
   liveLink?: string;
-  githubLink?: string;
   stacks: Array<string>;
 }
 
@@ -19,7 +18,6 @@ const Card = ({
   description,
   image,
   liveLink,
-  githubLink,
   stacks,
 }: CardProps) => {
   const isEven = id % 2 === 0;
@@ -100,23 +98,7 @@ const Card = ({
               />
             </Link>
           )}
-          {githubLink && (
-            <Link
-              href={githubLink}
-              target="_blank"
-              rel="noopener noreferrer"
-              className={`mt-2 flex justify-normal ${
-                isEven ? " lg:justify-end" : " lg:justify-start"
-              }`}
-            >
-              <img
-                src={"https://cdn.simpleicons.org/github"}
-                alt={"github repo"}
-                height={20}
-                width={20}
-              />
-            </Link>
-          )}
+          
         </div>
       </div>
     </section>

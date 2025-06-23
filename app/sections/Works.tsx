@@ -30,7 +30,6 @@ const Works = () => {
                   name={project?.name}
                   description={project?.description}
                   image={project?.image}
-                  // githubLink={project?.githubLink}
                   liveLink={project?.liveLink}
                   stacks={project?.stacks}
                   type={project?.type}
