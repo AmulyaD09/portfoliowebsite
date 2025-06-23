@@ -16,9 +16,8 @@ const Contact = () => {
         </h2>
         <h3 className=" text-2xl sm:text-4xl font-bold">Get in Touch</h3>
         <p className="text-base sm:text-lg">
-          I'm currently open to new job opportunities. Contact me if you are
-          interested in having me on your team, working on your project, seeking
-          mentorship, or just want to say hello. Please click the button below
+          I'm actively looking for opportunities in product management and am always open to connecting with professionals for career opportunities, experiential learning, peer collaboration, and mentorship.
+          Feel free to reach out to me for opportunities or simply to engage in meaningful discussions. Please click the button below
           or send an email to{" "}
           <Link
             href={"mailto:your.mustaphafarouk41@gmail.com"}
