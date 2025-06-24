@@ -20,7 +20,7 @@ const Contact = () => {
           Feel free to reach out to me for opportunities or simply to engage in meaningful discussions. Please click the button below
           or send an email to{" "}
           <Link
-            href={"mailto:your.mustaphafarouk41@gmail.com"}
+            href={"mailto:sravaniburma24@gmail.com"}
             className=" text-secondary-color-3 font-medium"
           >
             sravaniburma24@gmail.com
@@ -31,7 +31,7 @@ const Contact = () => {
           <Link
             target="_blank"
             rel="noopener noreferrer"
-            href={"mailto:your.mustaphafarouk41@gmail.com"}
+            href={"mailto:sravaniburma24@gmail.com"}
             className=" text-base flex items-center justify-center gap-3 px-5 py-2  font-bold w-max  mt-5   border-[1px] hover:bg-[#FBEDDD]  transition-all border-black rounded-lg"
           >
             Send A Message
